@@ -39,6 +39,10 @@ let thisWeeksFlyer = Flyer(
                     name: "Porkloin Back Ribs",
                     image: "porkloin-back-ribs"
                 ),
+                FoodItem(
+                    name: "Split Chicken Wings",
+                    image: "split-chicken-wings"
+                )
             ]
         ),
         
@@ -56,11 +60,45 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "Clam Chowder",
                     image: "clam-chowder"
-                ),
+                )
             ]
         ),
         
+        Department(
+            name: "Deli",
+            items: [
+                FoodItem(
+                    name: "Sliced Meat",
+                    image: "sliced-meat"
+                ),
+                FoodItem(
+                    name: "Garlic Sausage Links",
+                    image: "garlic-sausage-links"
+                ),
+                FoodItem(
+                    name: "Original Turkey Bites",
+                    image: "original-turkey-bites"
+                )
+            ]
+        ),
         
+        Department(
+            name: "Cheese",
+            items: [
+                FoodItem(
+                    name: "White Cheddar",
+                    image: "white-cheddar"
+                ),
+                FoodItem(
+                    name: "Babybel Cheese",
+                    image: "babybel-cheese"
+                ),
+                FoodItem(
+                    name: "Spreadable Cheese",
+                    image: "spreadable-cheese"
+                )
+            ]
+        )
     ]
 )
 
