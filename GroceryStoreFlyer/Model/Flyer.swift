@@ -23,6 +23,7 @@ struct FoodItem: Identifiable {
     let image: String
 }
 
+//Create instances of these structures
 let thisWeeksFlyer = Flyer(
     
     departments: [
