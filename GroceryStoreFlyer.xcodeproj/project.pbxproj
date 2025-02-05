@@ -83,8 +83,8 @@
 		23060BD42D515C9A00A68F2B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				23060BD92D53B9D200A68F2B /* DepartmentDetailView.swift */,
 				23060BC52D515C3900A68F2B /* DepartmentsListView.swift */,
+				23060BD92D53B9D200A68F2B /* DepartmentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
