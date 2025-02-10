@@ -33,25 +33,24 @@ struct DepartmentDetailView: View {
                         }
                         .padding(10)
                 }
-            //                Circle()
-            //                    .foregroundStyle(.orange)
-            //                    .aspectRatio(1.0/1.0, contentMode: .fit)
-            //                    .padding(.leading, 200)
-            //                    .padding(.bottom, 200)
-            //                Circle()
-            //                    .foregroundStyle(.red)
-            //                    .aspectRatio(1.0/1.0, contentMode: .fit)
-            //                    .overlay(
-            //                        Text(currentFoodItem.price)
-            //                            .font(.system(size: 25, weight: .bold, design: .rounded))
-            //                            .foregroundStyle(.white)
-            //                    )
-            //                    .offset(x: -10, y: -10)
-            //                    .padding(.leading, 200)
-            //                    .padding(.bottom, 200)
-            //
-            //
-            //               }
+                .overlay(alignment: .bottomTrailing) {
+                    Circle()
+                        .foregroundStyle(.orange)
+                        .frame(width: 130)
+                        .padding(10)
+                        .overlay {
+                            Circle()
+                                .foregroundStyle(.red)
+                                .frame(width: 130)
+                                .padding(10)
+                                .overlay {
+                                    Text("\(currentFoodItem.price.formatted(.currency(code: "CAD")))")
+                                        .font(.system(size: 25, weight: .bold, design: .rounded))
+                                        .foregroundStyle(.white)
+                                }
+                                .offset(x: -7, y: -7)
+                        }
+                }
         }
         .listStyle(.plain)
         .navigationTitle(departmentToShow.name)

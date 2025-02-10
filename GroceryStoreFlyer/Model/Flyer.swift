@@ -21,7 +21,7 @@ struct FoodItem: Identifiable {
     let id = UUID()
     let name: String
     let image: String
-    let price: String
+    let price: Double
 }
 
 //Create instances of these structures
@@ -35,17 +35,17 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "Sirloin Tip Oven Roasts",
                     image: "sirloin-tips",
-                    price: "$6.97/lb"
+                    price: 6.97
                 ),
                 FoodItem(
                     name: "Porkloin Back Ribs",
                     image: "porkloin-back-ribs",
-                    price: "$3.97/lb"
+                    price: 3.97
                 ),
                 FoodItem(
                     name: "Split Chicken Wings",
                     image: "split-chicken-wings",
-                    price: "$4.97/lb"
+                    price: 4.97
                 )
             ]
         ),
@@ -56,17 +56,17 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "Wild Pacific Halibut Fillets",
                     image: "wild-pacific-halibut-fillets",
-                    price: "$4.97/100g"
+                    price: 4.97
                 ),
                 FoodItem(
                     name: "Wild Sockeye Salmon Fillets",
                     image: "wild-sockeye-salmon-fillets",
-                    price: "$3.47/ 100g"
+                    price: 3.47
                 ),
                 FoodItem(
                     name: "Clam Chowder",
                     image: "clam-chowder",
-                    price: "$11.97 ea"
+                    price: 11.97
                 )
             ]
         ),
@@ -77,17 +77,17 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "Sliced Meat",
                     image: "sliced-meat",
-                    price: "$5.97 ea"
+                    price: 5.97
                 ),
                 FoodItem(
                     name: "Garlic Sausage Links",
                     image: "garlic-sausage-links",
-                    price: "$5.97/400g"
+                    price: 5.97
                 ),
                 FoodItem(
                     name: "Original Turkey Bites",
                     image: "original-turkey-bites",
-                    price: "$11.97 ea"
+                    price: 11.97
                 )
             ]
         ),
@@ -98,17 +98,17 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "White Cheddar",
                     image: "white-cheddar",
-                    price: "$11.97/280g"
+                    price: 11.97
                 ),
                 FoodItem(
                     name: "Babybel Cheese",
                     image: "babybel-cheese",
-                    price: "$5.97/120g"
+                    price: 5.97
                 ),
                 FoodItem(
                     name: "Spreadable Cheese",
                     image: "spreadable-cheese",
-                    price: "$4.97/133g"
+                    price: 4.97
                 )
             ]
         )
