@@ -61,7 +61,7 @@ let thisWeeksFlyer = Flyer(
                 FoodItem(
                     name: "Wild Sockeye Salmon Fillets",
                     image: "wild-sockeye-salmon-fillets",
-                    price: "$3.47/100g"
+                    price: "$3.47/ 100g"
                 ),
                 FoodItem(
                     name: "Clam Chowder",
